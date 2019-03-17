@@ -1,0 +1,9 @@
+//*Autor: Raul Ernesto Perez Barcenas*//
+//*Matricula: 148661*//
+//*Version: 1.0*//
+//*Asignatura: Programacion Integrativa (UACJ)*//
+
+interface HelloWorldService
+{
+	string message(in string msg);
+};

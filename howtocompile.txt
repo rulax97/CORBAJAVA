@@ -1,0 +1,6 @@
+COMANDOS A UTILIZAR.
+idlj -fall HelloWorld.idl
+javac *.java
+orbd -ORBInitialPort 1070 -ORBInitialHost localhost
+java HelloWorldServer -ORBInitialPort 1900 -ORBInitialHost localhost
+java HelloWorldClient -ORBInitialPort 1900 -ORBInitialHost localhost
